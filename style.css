@@ -366,14 +366,13 @@ body {
 ._divider {
 }
 .education__el-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 ._el-container {
 }
 .education__details {
-
 }
 .education__title {
     margin: 0 0 0.5em 0;
@@ -397,8 +396,8 @@ body {
 }
 
 .education__grade {
-  font-weight: 600;
-  opacity: 0.7;
+    font-weight: 600;
+    opacity: 0.7;
 }
 
 .education__subtitle,
@@ -408,44 +407,109 @@ body {
 }
 
 .education__docs {
-  width: 20%;
-  transition: transform 0.3s;
+    width: 20%;
+    transition: transform 0.3s;
 }
 
 .education__docs:hover {
-  transform: scale(2);
+    transform: scale(2);
 }
 
 .education__diploma {
-  width: 100%;
+    width: 100%;
 }
 
 .education__button {
-  margin: 1em 0 1em 0.5em;
+    margin: 1em 0 1em 0.5em;
 }
 
 ._button {
-  padding: 0.5em 1.2em;
-  background-color: #1319c4;
-  color: #ffffff;
-  border-radius: 0.7em;
-  transition: transform 0.3s;
-  cursor: pointer;
+    padding: 0.5em 1.2em;
+    background-color: #1319c4;
+    color: #ffffff;
+    border-radius: 0.7em;
+    transition: transform 0.3s;
+    cursor: pointer;
 }
 
 ._button:active {
-  transform: scale(0.9);
+    transform: scale(0.9);
 }
 
 /*-------------------ENGLISH ------LEVEL-------------------------------*/
 
 .language__el-container {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .language__level-code {
-  margin: 0 5em 0 0;
+    margin: 0 5em 0 0;
+}
+
+/*---------------------PROJECT-----------------------------------*/
+
+.project__head {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 3em 0;
+}
+
+.project__preview {
+    width: 50%;
+    transition: transform 0.3s;
+    margin: 0 2em 0 0;
+}
+
+.preview__image {
+    width: 100%;
+}
+
+.project__preview:hover {
+    transform: scale(2);
+}
+
+.project__info {
+    width: 80%;
+    padding: 0 0 0 2em;
+}
+
+.project__description {
+    height: 6em;
+    margin: 0 0 1em 0;
+    overflow-y: auto;
+    white-space: normal;
+}
+
+.project__skills-title {
+    padding: 0 0 1em 2em;
+}
+
+.project__skrolling-wrapper {
+    height: 10em;
+    margin: 0 0 0 3em;
+    overflow-y: auto;
+    white-space: normal;
+}
+
+.project__skrolling-wrapper::-webkit-scrollbar {
+    width: 5px;
+}
+
+.project__skrolling-wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.project__skrolling-wrapper::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.project__skrolling-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.project__skrolling-text {
+    /* overflow: hidden; */
 }
 
 /*------------------FOOTER-----------------------------*/
