@@ -32,7 +32,7 @@ h6 {
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 html,
@@ -285,7 +285,7 @@ body {
 .main__experience {
 }
 .experience__container {
-  flex: 3;
+    flex: 3;
 }
 
 .experience__title {
@@ -296,59 +296,130 @@ body {
 }
 
 .experience__el-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .experience__details {
-  margin: 0 2em 0 0;
+    margin: 0 2em 0 0;
 }
 
 .experience__company-name {
 }
 
 .experience__duration {
-  margin: 0 0 0 0.4em;
+    margin: 0 0 0 0.4em;
 }
 
 ._company-name {
-  margin: 0 0 0.5em 0;
-  font-size: 1.7em;
-  font-weight: 500;
-  color: #000;
+    margin: 0 0 0.5em 0;
+    font-size: 1.7em;
+    font-weight: 500;
+    color: #000;
 }
 
 .experience__description {
-  flex: 1;
+    flex: 1;
 }
 .experience__position {
-  margin: 0 0 1em 0;
+    margin: 0 0 1em 0;
 }
 
 ._position {
-  font-size: 1.2em;
-  font-weight: 600;
-  color: #000;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #000;
 }
 
 .experience__skills {
-  list-style-type: none;
-  padding-left: 0;
-  margin-bottom: 1em;
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 1em;
 }
 
 .experience__skills_item::before {
-  content: "• "; 
-  color: #000;
-  margin: 0 0.5em 0.5em 0;
+    content: '• ';
+    color: #000;
+    margin: 0 0.5em 0.5em 0;
 }
-
 
 .experience__text {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
+
+/*------------------EDUCATION------------------------------------------*/
+
+.main__education {
+}
+
+.education__container {
+}
+
+.educaion__title {
+}
+.block_title {
+}
+.education__divider {
+}
+._divider {
+}
+.education__el-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+._el-container {
+}
+.education__details {
+
+}
+.education__title {
+    margin: 0 0 0.5em 0;
+}
+._edu-title {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #000;
+}
+
+.education__uni-details {
+    margin: 0 0 0 0.4em;
+}
+
+.education__subtitle-duration,
+.education__grade {
+    color: #000;
+    display: flex;
+    flex-direction: row;
+    margin: 0 0 0.4em 0;
+}
+
+.education__grade {
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.education__subtitle,
+.grade__label {
+    color: #000;
+    margin: 0 1em 0 0;
+}
+
+.education__docs {
+  width: 20%;
+  transition: transform 0.3s;
+}
+
+.education__docs:hover {
+  transform: scale(3);
+}
+
+.education__diploma {
+  width: 100%;
+}
+
 /*------------------FOOTER-----------------------------*/
 
 .footer {
