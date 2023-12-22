@@ -31,6 +31,10 @@ h6 {
     font-size: inherit;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html,
 body {
     min-height: 100%;
@@ -312,7 +316,7 @@ body {
 ._company-name {
   margin: 0 0 0.5em 0;
   font-size: 1.7em;
-  font-weight: 600;
+  font-weight: 500;
   color: #000;
 }
 
