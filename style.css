@@ -33,7 +33,7 @@ h6 {
 
 html,
 body {
-    height: 100%;
+    min-height: 100%;
     line-height: 1;
     font-size: 16px;
     font-weight: 500;
@@ -108,16 +108,19 @@ body {
     flex: 1 1 auto;
 }
 
+/*-----------------MAIN-BLOCK----------------------------------*/
+
 .main__main-block {
 }
 .main-block {
+    margin-bottom: 8em;
 }
+
 .main-block__container {
     display: flex;
     flex-direction: row;
 }
-._container {
-}
+
 .main-block__profile-photo {
     flex: 1;
     position: relative;
@@ -157,8 +160,17 @@ body {
 }
 
 .subtitle {
-    color: #000;
+    font-weight: 500;
     font-size: 1em;
+    line-height: normal;
+}
+
+.block_title {
+    margin: 0 0 0.5em 0;
+    font-weight: 400;
+    font-size: 2em;
+    color: #ffffff;
+    opacity: 0.8;
 }
 
 .main-block__contacts {
@@ -184,15 +196,88 @@ body {
     margin: 0 1em 0 0;
 }
 
+.contacts__icon:hover {
+    transform: scale(0.9);
+}
+
 .contacts__subtitle {
     display: inline-block;
     border-bottom: 2px solid transparent;
     transition: border-bottom 0.3s ease-in-out;
+    color: #000;
 }
 
 .contacts__subtitle:hover {
     border-bottom: 0.1em #000 solid;
 }
+
+/*---------------ABOUT-ME----------------------------------------*/
+
+.main__about-me {
+}
+
+.about-me__container {
+}
+
+.about-me__title {
+}
+
+.about-me__divider {
+}
+
+._divider {
+    width: inherit;
+    height: 0.1em;
+    background-color: #ffffff;
+    opacity: 0.7;
+    margin: 0 0 3em 0;
+}
+
+.about-me__description {
+}
+
+._el-container {
+    padding: 2em;
+    background-color: #ffffff;
+    color: #000;
+    opacity: 0.7;
+    border-radius: 2em;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.about-me__el-container {
+    margin: 0 0 2em 0;
+}
+
+.main__skills {
+}
+.skills_container {
+}
+._container {
+}
+.skills_title {
+}
+.block_title {
+}
+.skills__divider {
+}
+._divider {
+}
+.skills__el-container {
+    display: flex;
+    display: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+._el-container {
+}
+
+.skills__item {
+    text-transform: uppercase;
+    margin: 0 1em 0 0;
+}
+
+/*--------------------Skills-----------------------------------*/
 
 /*------------------FOOTER-----------------------------*/
 
