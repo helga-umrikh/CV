@@ -437,6 +437,17 @@ body {
   transform: scale(0.9);
 }
 
+/*-------------------ENGLISH ------LEVEL-------------------------------*/
+
+.language__el-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.language__level-code {
+  margin: 0 5em 0 0;
+}
+
 /*------------------FOOTER-----------------------------*/
 
 .footer {
