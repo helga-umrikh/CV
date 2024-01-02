@@ -501,11 +501,12 @@ body {
 }
 
 .project__skrolling-wrapper::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #8888885c;
+    border-radius: 10px;
 }
 
 .project__skrolling-wrapper::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #3333ea91;
 }
 
 .project__skrolling-text {
