@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800,900&display=swap&subset=cyrillic-ext"
+    rel="stylesheet" />
   <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
   <title>CV</title>
 </head>
+
 <body>
-  
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container _container">
+        <a href="" class="header__logo">CV</a>
+        <nav class="header__menu menu">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="#home" class="menu__link">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#about_me" class="menu__link">About me</a>
+            </li>
+            <li class="menu__item">
+              <a href="#projects" class="menu__link">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main" id="home">
+      <div class="main__main-block main-block">
+        <div class="main-block__container _container">
+          <div class="main-block__profile-photo">
+            <img class="profile-photo__picture" src="./assets/profile_photo.jpg" alt="profile photo">
+          </div>
+          <div class="main-block__content">
+            <div class="main-block__title-container">
+              <h1 class="main-block__title title">Olga Umrikhina</h1>
+              <div class="main-block__subtitle subtitle">
+                Junior Frontend developer | React
+              </div>
+            </div>
+            <div class="main-block__contacts">
+              <ul>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="http://www.linkedin.com/in/olga-umrikhina">
+                    <img class="contacts__icon" src="./assets/icons/linkedin.svg" alt="">
+                    <p class="contacts__subtitle subtitle">linkedin.com/in/olga-umrikhina</p>
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link"  href="tg://resolve?domain=@helga_umrikh">
+                    <img class="contacts__icon" src="./assets/icons/telegram.svg" alt="">
+                    <p class="contacts__subtitle subtitle">@helga_umrikh</p>
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link"  href="skype:live:.cid.d19faab992657e8a?chat">
+                    <img class="contacts__icon" src="./assets/icons/skype.svg" alt="">
+                    <p class="contacts__subtitle subtitle">:live:.cid.d19faab992657e8a</p>
+                  </a>
+                </li>
+                <li class="contacts__item">
+                  <a class="contacts__link" href="https://github.com/helga-umrikh">
+                    <img class="contacts__icon" src="./assets/icons/github.svg" alt="">
+
+                    <p class="contacts__subtitle subtitle">helga-umrikh </p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+  </div>
+  <script src="js/script.js"></script>
 </body>
+
 </html>
